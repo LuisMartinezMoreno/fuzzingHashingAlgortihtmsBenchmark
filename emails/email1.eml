@@ -1,0 +1,166 @@
+Return-path: <bounces+54769-9047-luigifog=icloud.com@em.spotify.com>
+Original-recipient: rfc822;luigifog@icloud.com
+Received: from mr55p00im-qukt02070302.me.com by p122-mailgateway-smtp-76b6dff9f9-khs2p (mailgateway 2321B81)
+	with SMTP id 3d5f4a59-f02c-4e3e-b033-d3e22eda1185 
+	for <luigifog@icloud.com>; Tue, 25 Jul 2023 05:54:56 GMT
+X-Apple-MoveToFolder: INBOX 
+X-Apple-Action: MOVE_TO_FOLDER/INBOX
+X-Apple-UUID: 3d5f4a59-f02c-4e3e-b033-d3e22eda1185
+Received: from o36.em.spotify.com (o36.em.spotify.com [149.72.133.204])
+	by mr55p00im-qukt02070302.me.com (Postfix) with ESMTPS id 207D846C015E
+	for <luigifog@icloud.com>; Tue, 25 Jul 2023 05:54:54 +0000 (UTC)
+X-ICL-SCORE: 3.333034030041
+X-ICL-INFO: GAtbVUseBVFGSVVDSAMGUkFIRFcUWUIPAApbVRYSFhEAREQfHVlbBhQVClVYVVJfVxsJAhZTUxFe
+ TFJATgkbW0VNUVoURV8FHB8JEEVZVQ4aDAJZG19bIhAUSAQIX0ILEwBIFBddFEITHVtVC0BZFhwf
+ H1kbX1tAVQoPB0USB1ZMV1FFVgEFUVtLVkNaEF4HGRZbVRcDAEwQFEgECF9CCxMASBQXXRRCBQ0U
+ SlpfBVRbHAtZC0BZFhwfH1kbX1tAVR0CSlpDRg0BEAAOVlNZD1dZCx4cDRRePyMHNgEGfFAnMgsY
+ KAN7ABEVVDhIYXYFEBYWGBwdXxEYDRYTVQcIQFULBUpaXEMLEhAAGB9wXwEZFhMTVlNZD1c=
+Authentication-Results: bimi.icloud.com; bimi=skipped reason="missing evidence"
+X-ARC-Info: policy=fail; arc=none
+Authentication-Results: arc.icloud.com; arc=none
+Authentication-Results: dmarc.icloud.com; dmarc=pass header.from=spotify.com
+X-DMARC-Info: pass=pass; dmarc-policy=reject; s=r1; d=r1; pdomain=spotify.com
+X-DMARC-Policy: v=DMARC1; p=reject; sp=reject; pct=100; fo=1; rf=afrf; rua=mailto:9TPHS8MBN9@dmarc.inboxmonster.com; ruf=mailto:9TPHS8MBN9_ruf@dmarc.inboxmonster.com
+Authentication-Results: dkim-verifier.icloud.com;
+	dkim=pass (2048-bit key) header.d=spotify.com header.i=@spotify.com header.b=frvPw7vD
+Authentication-Results: spf.icloud.com; spf=pass (spf.icloud.com: domain of bounces+54769-9047-luigifog=icloud.com@em.spotify.com designates 149.72.133.204 as permitted sender) smtp.mailfrom="bounces+54769-9047-luigifog=icloud.com@em.spotify.com"
+Received-SPF: pass (spf.icloud.com: domain of bounces+54769-9047-luigifog=icloud.com@em.spotify.com designates 149.72.133.204 as permitted sender) receiver=spf.icloud.com; client-ip=149.72.133.204; helo=o36.em.spotify.com; envelope-from="bounces+54769-9047-luigifog=icloud.com@em.spotify.com"
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=spotify.com;
+	h=content-type:from:mime-version:subject:to:cc:content-type:from:
+	subject:to;
+	s=s1; bh=um/8j5QIYHN4PSFG3MT2K+u1y87+WQnC1Q4TBL/8KfU=;
+	b=frvPw7vD0K115tWGFUk2c3g/MLJ4gbvlbwdHgtzgJvpq/XEaKhMzXCNYXdDB2YaszJ+e
+	WEC5VCbAYPDSlcKdmndoe8IUG3j0b2SLX01lv+o/9sopwFkpLNDQKVXnvFzUeCFDEKhDIc
+	Wwlc9zH1skheuzfQ49MBBptEC1YJEgSpiBS7CWZkI0VdwacmyMCIHASFApS8kvKGY3DpNx
+	TbDbBLHz4+1EEiIDZ3/IRm6Uqp3GlyovFF8OTuYhi8TfWDtGaotyxP+fmVE8Bwu8FAAio4
+	BkJqgeI0y7CbD9h+nCTvtURaLTcaxOCkAmsk6F5HY53W10vMwqi/DhR5ztmqmP+Q==
+Received: by filterdrecv-6d7bd854f-4hh4q with SMTP id filterdrecv-6d7bd854f-4hh4q-1-64BF63AD-11
+        2023-07-25 05:54:53.738227676 +0000 UTC m=+6502603.458586319
+Received: from NTQ3Njk (unknown)
+	by geopod-ismtpd-7 (SG) with HTTP
+	id JZaAy6J2RKmoP3Mbdl2O0Q
+	Tue, 25 Jul 2023 05:54:53.725 +0000 (UTC)
+Content-Type: multipart/alternative; boundary=606edb4cdd704cbc663b1bd4395a12b85a359ce66c673fe6b6fe05dd2b3b
+Date: Tue, 25 Jul 2023 05:54:53 +0000 (UTC)
+From: Spotify <no-reply@spotify.com>
+Mime-Version: 1.0
+Message-ID: <JZaAy6J2RKmoP3Mbdl2O0Q@geopod-ismtpd-7>
+Subject: =?UTF-8?Q?Pr=C3=B3ximos_cambios_en_tu_suscripci=C3=B3n?= a Spotify
+X-SG-EID: 
+ =?us-ascii?Q?0C9L=2FeBRtgYa=2FF8y6aOTnwpGIngFWQ11NoR8o2fvCVMN9thUS8ZNdG1JBR+Ynp?=
+ =?us-ascii?Q?5TqR0Hpm2LFUl=2FBnY7BDTNZfvwWro9mMRR4OnXs?=
+ =?us-ascii?Q?szybz0mp8cBEXqH3B6tDd8dP7NEKcZmKJKIsjA4?=
+ =?us-ascii?Q?A+mLfS9lGmrfHbxx47PRrTdrRmkDyIscRL2XIar?=
+ =?us-ascii?Q?27QKlWKt+rPB+II=2FukEY=2F=2Fg+nLeAN3EQ1P40MWY?=
+ =?us-ascii?Q?aSRw5Tak1R8f=2FbmoI=3D?=
+X-SG-ID: 
+ =?us-ascii?Q?N2C25iY2uzGMFz6rgvQsbwALdVFe+T=2FJmYRY2IzNfBBaV8GV1nvQVLoQX7xYmh?=
+ =?us-ascii?Q?Xp9iAreh7y1VFHUOl1jz1OEQ8wp4S1XYV1d6ldI?=
+ =?us-ascii?Q?SFRJ+QwhkApNnKRj3k0HDRDcmUvIIUThqBdyBFT?=
+ =?us-ascii?Q?OPF8W=2FealJzpEbP9SV8EgErjjiwx+NjejxSaqlL?=
+ =?us-ascii?Q?pvfdAn3x1UlWPM14nMrKpBviBBJNWVC1Q6MCrUL?=
+ =?us-ascii?Q?BnTEBiQaHQqK+x4FknFOScxlTCY3+OElqcQOcAs?=
+ =?us-ascii?Q?FCO2qCC3S7ARE9gLsiF0CSIT2y4LcVbRpNR0BpZ?=
+ =?us-ascii?Q?UXdeOUraOtGTm3zFrHTYivUcsuPkeZG82ar8iEu?=
+ =?us-ascii?Q?qSoDuXWpXQgDV9C3no4ZMKuOQFmlaNlyKVa9nLh?=
+ =?us-ascii?Q?NN7dLQRWCa?=
+To: luigifog@icloud.com
+X-Entity-ID: 2vxnRJdGdooKCfSUhf9vyA==
+X-MANTSH: 1TEIXR1gYEloaGkNHB0tNT0ReQ0QZHhocEQpMQxcbGgQbGxgEEhwEHx8QGx4aHxo
+ RCkxZFwcbExsRCllEF2VJBRN8b1NhX2QeEQpZTRdgX0RBEQpZSRcacRoQGncGBxsdG3EZExscE
+ BsTEh0dG3cGBxgaBhoRClleF2xseREKQ04XSxxDUHNhRXJGRn1eR1tMXFBIXWV9X2B6TVoSREl
+ jbBkRClhcFxkEGgQfGgUbHQQbGxsEGx8fBBsdHBAbHhofGhEKXlkXSBN7QmERCk1cFxgdGREKT
+ FoXbkJ6QhpNEQpNThduaBEKTEYXTWsRCkNaFxseEwQdGAQbGRkEGBoeEQpCXhcbEQpCXBcbEQp
+ eThcbEQpCSxduWW1haRxOaHtcEhEKQkkXblltYWkcTmh7XBIRCkJFF2AZaF1AS0FTXXJ5EQpCT
+ hduWW1haRxOaHtcEhEKQkwXYhtPSWFnAXxuZG4RCkJsF2NmZR1fcnloU3oZEQpCQBdtZW9BU1l
+ IG2RrbhEKQlgXbEl8EkRmb0dCb28RClpYFxMRCnBoF3pkG3tEZxxyQRJdEAccHREKcGgXY29rY
+ kNOBR9tH2AQGhEKcGgXaFlCE0RjRVp5fW8QBx0eEQpwaBdkZ0NzQWVzTUIaRhAHHRwRCnBoF2Z
+ MaAEaXW19QBJTEAcbEhEKcH0XZFgYHGYdYmFEE2gQBxwdEQpwfRdtYnNgREtTcl9/eBAHHB0RC
+ nB9F3pNGUlbbElzaGVSEAcSHREKcH0XYFBeBRhrQEViSBMQBxIdEQpwfRdjRkNME1l+RUVaQxA
+ HEh0RCnB9F21kH19IUGhsUkFfEAcSHREKcH0XZEV4E3tDQhsacnAQBxIdEQpwfRdmaBwTGBMFQ
+ UBeXRAHEh0RCnB9F2dhfmtpS31yYnocEBoRCnB9F219cH9LW39AUFgBEAcdHBEKcH0XZ1NbQWZ
+ EWgFpS0wQGhEKcH0XY155ZHBla3l+ehgQGhEKcH0XZ158WX9pBWhlekQQBxISEQpwfRdoc3h9U
+ 0FoYkZ+YhAaEQpwfRdgRmZtH0ZPX3J5bRAaEQpwfRdteHBBT0AZXx1HQhAaEQpwfRdma1NeUHJ
+ uRVlScxAaEQpwfRdhe1x8EnJbRWJ6bxAaEQpwfRdmR0RhWxpFTWRZfRAaEQpwfRdoH2BlRhx4R
+ UNhcBAaEQpwfxdoaEd+cGZeQ1JrExAHExkRCnBfF2FsWUEbRmh4R057EAccEhEKcF8XbH1uQkt
+ fHnJ4bEkQBxwdEQpwfxdmbX1CBWdpYWRGWxAHGxofEQpwXxdkWW5JeHNLWVhzaBAHEh0RCnB/F
+ 29EYVASE38bHBJ+EAcbGB0RCnBfF2wdSXNwUGlIBWFHEAcbGhwRCnBfF2gZSXBIb0xQf3kBEAc
+ SHREKcF8XYWlFWB9PSFgdEmsQBxIdEQpwXxdjWHt4SRpMXFt4QxAHEh0RCnBfF2ZSeBp4GhNYR
+ 0doEAcSHREKcF8XY3tyZUZgYV0SGHwQBx0SEQpwfxdsUFtNYGlvb0lPGBAHGxofEQpwXxd6Emc
+ FXkxsfHpHEhAHHRwRCnBfF2dMaF1aeFhGGUEcEAcTGhEKcF8XbkdkTU4bHE4YRnkQBx0YEQpwf
+ xdjQGMYXhl4H0QaQhAHEhwRCnBfF2FvRW1cGkttX096EAcSEhEKcF8XYFxNfl9BS31+aWsQBxI
+ SEQpwXxduTExIRUl6blhNTRAHEhIRCnBsF2x/RX96Q2xIYRNfEAcbGh4RCm1+FxoRClhNF0sR
+X-Proofpoint-GUID: a6izYKoXllWtmqfvzbwOWuJPgp8ncIF3
+X-Proofpoint-ORIG-GUID: a6izYKoXllWtmqfvzbwOWuJPgp8ncIF3
+
+--606edb4cdd704cbc663b1bd4395a12b85a359ce66c673fe6b6fe05dd2b3b
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=utf-8
+Mime-Version: 1.0
+
+
+El precio de Premium Familiar va a cambiar de 15,99=C2=A0=E2=82=AC al mes a=
+ 17,99=C2=A0=E2=82=AC al mes.
+
+
+
+Vamos a subir el precio de Premium Familiar para poder seguir invirtiendo e=
+ innovando en nuestros productos y funciones, y ofreci=C3=A9ndote la mejor =
+experiencia.
+
+
+
+Como ya tienes una suscripci=C3=B3n a Premium, pagar=C3=A1s 15,99=C2=A0=E2=
+=82=AC al mes hasta la pr=C3=B3xima factura de septiembre. Despu=C3=A9s, el=
+ precio de tu suscripci=C3=B3n subir=C3=A1.*
+
+
+
+Gracias por tu apoyo a Premium.
+
+
+
+El equipo de Spotify.
+
+
+Si no quieres seguir pagando Premium, puedes cancelar tu plan en cualquier =
+momento en la p=C3=A1gina de tu cuenta ( https://www.spotify.com/account/ov=
+erview/?utm_campaign=3Dugopi&utm_medium=3D1474&utm_source=3Demail ) o ir a =
+nuestro sitio de asistencia ( https://support.spotify.com/article/price-upd=
+ates/ ) si tienes m=C3=A1s preguntas.
+
+
+
+* Si tienes un periodo de prueba activo, no se te cobrar=C3=A1 nada hasta q=
+ue finalice. Una vez finalizada la prueba, disfrutar=C3=A1s de 1=C2=A0meses=
+ al precio actual de 15,99=C2=A0=E2=82=AC antes de que se te suba el precio=
+ a 17,99=C2=A0=E2=82=AC.
+
+
+-------------
+
+Consigue Spotify para:
+  * iPhone (https://itunes.apple.com/app/spotify-music/id324684580)
+  * iPad (https://itunes.apple.com/app/spotify-music/id324684580)
+  * Android (https://play.google.com/store/apps/details?id=3Dcom.spotify.mu=
+sic)
+  * Otros (https://www.spotify.com/download/)
+
+Mensaje enviado a luigifog@icloud.com.=20
+
+Si tienes alguna pregunta o queja, no dudes en contactar con nosotros ( htt=
+ps://www.spotify.com/about-us/contact/ ).
+
+  * T=C3=A9rminos de Uso https://www.spotify.com/legal/end-user-agreement/
+  * Pol=C3=ADtica de Privacidad https://www.spotify.com/legal/privacy-polic=
+y/
+  * Contactar con nosotros https://www.spotify.com/about-us/contact/
+
+
+Spotify AB, Regeringsgatan 19, 111 53, Stockholm, Sweden
+
+--606edb4cdd704cbc663b1bd4395a12b85a359ce66c673fe6b6fe05dd2b3b
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=utf-8
+Mime-Version: 1.0
+

@@ -1,0 +1,5 @@
+brew install ssdeep
+pip3 install ssdeep
+python-tlsh==4.5.0
+fuzzyhashlib==0.0.9
+git+https://github.com/diffeo/py-nilsimsa.git
