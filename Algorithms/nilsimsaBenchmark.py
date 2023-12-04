@@ -1,5 +1,5 @@
 import nilsimsa
-from . import emailComparator
+from commons import emailComparator, normalizeData
 
 # Function to calculate the Nilsimsa similarity between two strings
 def calculate_similitude_nilsimsa(str1, str2):
@@ -19,8 +19,7 @@ def calculate_similitude_nilsimsa(str1, str2):
 
     # Calculate the Hamming distance between the hashes
     distance_hamming = nilsimsa.compare_digests(hash_str1.hexdigest(), hash_str2.hexdigest(), True, True, -100)
-
-    return distance_hamming
+    return normalizeData.normalize(distance_hamming,-128,128)
 
 # Main function to execute Nilsimsa similarity comparison
 def execute(txt1, txt2, archive):
@@ -38,7 +37,7 @@ def execute(txt1, txt2, archive):
     similitude = calculate_similitude_nilsimsa(txt1, txt2)
     print("====== Nilsima Similitude result for the comparison (the closer the 128 the better)======")
     print(similitude)
-    if similitude < 128:
+    if similitude < 95:
         print("There are some differences, we are working on it ")
         result = emailComparator.main(archive)
         print(result)
